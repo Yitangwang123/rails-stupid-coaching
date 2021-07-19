@@ -1,0 +1,44 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$font-stack:    Helvetica, sans-serif;
+$send-color: #C3E991;
+$border-color: #E6E6E6;
+$backgroud: #C3E991;
+
+body {
+  font: 100% $font-stack;
+}
+
+form {
+
+  #ask {
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+  }
+  #send {
+    width: 80px;
+    height: 36px;
+    background-color: $send-color;
+    border-radius: 8px;
+  }
+}
+
+.container {
+
+  width: 1000px;
+  padding: 20px;
+
+  .card {
+    height: 100px;
+    padding: 25px 25px;
+    border-left: 5px solid $border-color;
+  }
+
+  .backgroud {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $backgroud;
+  }
+}
